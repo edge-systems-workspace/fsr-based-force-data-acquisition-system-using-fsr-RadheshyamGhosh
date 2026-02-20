@@ -28,11 +28,6 @@ void loop() {
     Serial.println(value);
 
     // TODO 7:
-    // Apply simple threshold logic (e.g., detect pressure)
+    delay(500);
 
-    // TODO 8:
-    // Print pressure detection message
-
-    // TODO 9:
-    // Add delay (500ms or 1 second)
 }
