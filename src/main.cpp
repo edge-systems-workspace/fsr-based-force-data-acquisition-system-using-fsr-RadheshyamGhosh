@@ -12,14 +12,11 @@
 
 int value =0;
 
-
 void setup() {
 
-    // TODO 3:
-    // Initialize Serial communication (9600 baud rate)
+    Serial.begin(9600);
+    pinMode(A0,INPUT);
 
-    // TODO 4:
-    // Print system initialization message
 }
 
 void loop() {
